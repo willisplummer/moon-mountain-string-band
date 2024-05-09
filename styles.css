@@ -15,7 +15,10 @@ nav {
   display: flex;
   justify-content: center;
   gap: 6px;
-  color: yellow;
+
+  a {
+    color: gold;
+  }
 }
 img {
   width: 100%;
