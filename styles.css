@@ -39,3 +39,16 @@ img {
 h2 {
   color: gold;
 }
+
+two-col {
+  display: flex;
+  flex-direction: row;
+}
+
+left {
+  flex: 2;
+}
+
+right {
+  flex: 1;
+}
