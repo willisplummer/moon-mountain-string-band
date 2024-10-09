@@ -40,15 +40,15 @@ h2 {
   color: gold;
 }
 
-two-col {
+.two-col {
   display: flex;
   flex-direction: row;
 
-  left {
+  .left {
     flex: 2;
   }
 
-  right {
+  .right {
     flex: 1;
   }
 }
