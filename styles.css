@@ -43,12 +43,12 @@ h2 {
 two-col {
   display: flex;
   flex-direction: row;
-}
 
-left {
-  flex: 2;
-}
+  left {
+    flex: 2;
+  }
 
-right {
-  flex: 1;
+  right {
+    flex: 1;
+  }
 }
