@@ -7,27 +7,6 @@ body {
   font-size: 18px;
 }
 
-/* bigger than phone */
-@media (min-width: 600px) {
-  body {
-    font-size: 18px;
-  }
-
-  .two-col {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-
-    .left {
-      flex: 2;
-    }
-
-    .right {
-      flex: 1;
-    }
-  }
-}
-
 h1 {
   color: gold;
   width: 100%;
@@ -52,4 +31,25 @@ nav {
 
 img {
   width: 100%;
+}
+
+/* bigger than phone */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .two-col {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    .left {
+      flex: 2;
+    }
+
+    .right {
+      flex: 1;
+    }
+  }
 }
