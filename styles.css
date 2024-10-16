@@ -5,19 +5,25 @@ html {
 body {
   background-color: black;
   color: white;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 18px;
-  font-family: 'M PLUS 1 Code', sans-serif;                                            
+  font-size: 16px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  width: 95%;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
 }
 
 h1 {
   color: gold;
   width: 100%;
   text-align: center;
-  font-size: 60px;
-  font-family: 'Feeling Babylon', sans-serif;                                                
+  font-size: 58px;
+  font-family: 'Feeling Babylon', sans-serif;
+  margin-bottom: 12px;
 }
 
 h2 {
@@ -32,9 +38,15 @@ a {
 nav {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 8px;
-  font-size: 1.5em;
+  gap: 6px;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+footer {
+  margin: 40px 0;
 }
 
 img {
@@ -45,6 +57,10 @@ img {
 @media only screen and (min-width: 768px) {
   body {
     font-size: 18px;
+  }
+
+  nav {
+    font-size: 22px;
   }
 
   .two-col {
