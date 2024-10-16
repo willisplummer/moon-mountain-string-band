@@ -31,6 +31,10 @@ h2 {
   font-family: 'CS Gordon', sans-serif;
 }
 
+h2 span.white {
+    color: white;
+}
+
 a {
   color: gold;
 }
